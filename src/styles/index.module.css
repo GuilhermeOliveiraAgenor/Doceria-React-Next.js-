@@ -1,0 +1,60 @@
+
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } 
+  
+  .titulo div {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+  }
+
+  .brownieprofissa {
+    position: absolute;
+    display: flex; /* Layout flexbox */
+  justify-content: center; /* Alinhar horizontalmente ao centro */
+  align-items: center; /* Alinhar verticalmente ao centro */
+    width: 335px; /* Largura do quadrado */
+    height: 300; /* Altura do quadrado */
+    top: 145%; /* Posiciona no meio vertical */
+    left : 20px; /* Distância da direita */
+    border-radius: 5px; /* Arredonda os cantos com 5 pixels */
+    border: 5px solid #5c2c06;
+    transform: translate(20px, -130px); /* Transladar 50px para a direita e 100px para baixo */
+
+  }
+  .trufamaracuja {
+    position: absolute;
+
+    top: 145%; /* Posiciona no meio vertical */
+    right : 20px; /* Distância da direita */
+    transform: translateY(-00%); /* Compensa o posicionamento vertical */
+    width: 335px; /* Largura do quadrado */
+    height: 300; /* Altura do quadrado */
+    border-radius: 5px; /* Arredonda os cantos com 5 pixels */
+    border: 5px solid #5c2c06;
+    transform: translate(20px, -130px); /* Transladar 50px para a direita e 100px para baixo */
+
+  }
+
+  .barra {
+    position: absolute; /* Posicionamento absoluto dentro do container */
+    top: 120%; /* Posiciona no meio vertical */
+    right : 500px; /* Distância da direita */
+    transform: translateY(-00%); /* Compensa o posicionamento vertical */
+    width: 335px; /* Largura do quadrado */
+    height: 300; /* Altura do quadrado */
+    border-radius: 5px; /* Arredonda os cantos com 5 pixels */
+    border: 5px solid #5c2c06;
+    transform: translate(20px, 30px); /* Transladar 50px para a direita e 100px para baixo */
+
+  }
+
+  .imagemarredondada {
+    border-radius: 10px; /* Arredonda os cantos com 10 pixels */
+    border: 5px solid #000; /* Adiciona uma borda preta de 5 pixels */
+  }
+

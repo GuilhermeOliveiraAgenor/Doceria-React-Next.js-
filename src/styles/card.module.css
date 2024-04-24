@@ -1,0 +1,69 @@
+.card{
+    width:250px;
+    height: 250px;;
+    background-color: #DEB887;
+    color: var(--gray);
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #e60f0f70;
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.letra{
+    font-size: 18px;
+  font-weight: bold;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: black;
+
+  align-items: center;
+  justify-content: justify-between;
+  gap: 1.5rem;
+  margin-block: 1rem;
+}
+
+
+.produtos h2{
+    text-align: center;
+}
+
+.lista{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 1rem;
+
+}
+
+  .flex {
+    /* Existing styles */
+    flex: flex-col;
+    justify-content: justify-between;
+    align-items: center;
+    width:250px;
+    height: 250px;;
+    background-color: #DEB887;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #722c2c70;
+    padding: 30px; 
+    transition: background-color 0.3s ease; /* Transição suave */
+
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-block: 1rem;
+  
+    /* Border and shadow styles */
+    box-shadow: 5px 5px 10px rgba(167, 20, 20, 0.2); /* Adjust shadow offset, spread, and blur as needed */
+    border-radius: 5px; /* Arredonda os cantos com 5 pixels */
+
+  }
